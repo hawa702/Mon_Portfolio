@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Hawa Diallo | Portfolio</title>
+</head>
+<body>
+   <header class="header">
+        <a href="#Home" class="logo">Hawa <span>Developer</span></a>
+        <div class="menu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <nav class="navbar">
+            <a href="#Home">Accueil</a>
+            <a href="#Education">Education</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Projets">Projets</a>
+            <a href="#Competence">Competences</a>
+            <a href="#contact">Contact</a>
+        </nav>
+   </header>
+
+   <section class="home" id="Home">
+        <div class="content">
+            <h1> Salut, c'est <span>Hawa Diallo</span></h1>
+            <h3 class="text-animation"> Je suis <span></span></h3>
+            <p>Etudiante en L3 Genie Logiciel a l'Universite Assane Seck de Ziguinchor, je developpe des
+                applications web et mobiles et je recherche un stage de fin d'etudes en developpement logiciel.</p>
+            <div class="icons">
+                <a href="https://github.com/hawa702" target="_blank" aria-label="Github"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="mailto:lodiae196@gmail.com" aria-label="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a href="tel:+221778454414" aria-label="Telephone"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" aria-label="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <div class="flex-btn">
+                <a href="#contact" class="btn hire">Me contacter</a>
+                <a href="Hawa_Diallo_CV.pdf" class="btn" download>Telecharger CV</a>
+            </div>
+        </div>
+
+        <img src="image/moi.png"" alt="Photo de Hawa Diallo">
+   </section>
+
+   <section class="education" id="Education">
+        <h2 class="heading">education</h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"> </div>
+                <div class="timeline-date">2020 - 2023</div>
+                <div class="timeline-content">
+                    <h3>Lycee Elhadji Bouna Semou Niang, Koumpentoum</h3>
+                    <p>Baccalaureat serie S2, Science et Experimentale - Mention Assez Bien</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"> </div>
+                <div class="timeline-date">2023 - 2025</div>
+                <div class="timeline-content">
+                    <h3>Universite Assane Seck de Ziguinchor</h3>
+                    <p>Licence en ingenierie informatique : developpement web, reseaux, bases de donnees</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"> </div>
+                <div class="timeline-date">2025 - Present</div>
+                <div class="timeline-content">
+                    <h3>Universite Assane Seck de Ziguinchor</h3>
+                    <p>L3 Genie Logiciel : developpement web et mobile, bases de donnees, securite informatique</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="Experience">
+        <h2 class="heading">experience</h2>
+        <div class="experience-grid">
+
+            <div class="experience-card">
+                <img src="image/OIP2.webp" alt="Developpement web">
+                <h3>Developpement Web</h3>
+                <p>Conception de sites et d'interfaces web modernes et responsives, acquise a travers mes
+                    projets academiques (site de la filiere L2i, plateforme de gestion universitaire).</p>
+            </div>
+
+            <div class="experience-card">
+                <img src="image/OIP.webp" alt="Langages de programmation">
+                <h3>Langages de programmation</h3>
+                <p>Pratique de Python, JavaScript, Java, C et Pascal dans mes travaux pratiques et mes
+                    projets de developpement logiciel.</p>
+            </div>
+
+            <div class="experience-card">
+                <img src="image/R.jfif" alt="Bases de donnees">
+                <h3>Bases de donnees</h3>
+                <p>Modelisation UML / MCD-MLD et gestion de bases de donnees relationnelles avec MySQL
+                    et PostgreSQL sur mes differents projets.</p>
+            </div>
+
+            <div class="experience-card">
+                <img src="image/OIP4.webp" alt="Securite et reseaux">
+                <h3>Securite & Reseaux</h3>
+                <p>Notions de cryptographie et de chiffrement (OpenSSL, hachage), et d'administration
+                    de base de systemes et reseaux.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="Projets">
+        <h2 class="heading">projets</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-year">2026</div>
+                <h3>Gestion du patrimoine touristique</h3>
+                <p class="project-role">Projet de fin de cycle</p>
+                <p>Application de gestion du patrimoine touristique de la region de Ziguinchor : analyse des
+                    besoins, modelisation UML et gestion de la persistance des donnees.</p>
+                <div class="project-tags">
+                    <span>Spring Boot</span>
+                    <span>Thymeleaf</span>
+                    <span>Java</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-year">2026</div>
+                <h3>Application mobile Android</h3>
+                <p class="project-role">Projet mobile</p>
+                <p>Application mobile native developpee de bout en bout : architecture logicielle, creation des
+                    vues et integration des fonctionnalites.</p>
+                <div class="project-tags">
+                    <span>Android Studio</span>
+                    <span>Java</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-year">2025</div>
+                <h3>Site web de la filiere L2i</h3>
+                <p class="project-role">Projet web</p>
+                <p>Site dynamique pour la filiere Ingenierie Informatique avec une interface moderne, fluide et
+                    responsive (ordinateur et mobile).</p>
+                <div class="project-tags">
+                    <span>JavaScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-year">2025</div>
+                <h3>Plateforme de gestion universitaire</h3>
+                <p class="project-role">Projet web (examen)</p>
+                <p>Application web de gestion pour l'Universite Assane Seck de Ziguinchor : etude des besoins et
+                    modelisation de la base de donnees relationnelle.</p>
+                <div class="project-tags">
+                    <span>PHP</span>
+                    <span>Bootstrap</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills" id="Competence">
+        <h2 class="heading">competences</h2>
+        <div class="skills-grid">
+
+            <div class="skill-box">
+                <i class="fa fa-code"></i>
+                <h3>Langages</h3>
+                <div class="tag-list">
+                    <span>Python</span><span>JavaScript</span><span>Java</span><span>C</span><span>Pascal</span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa fa-globe"></i>
+                <h3>Web & Mobile</h3>
+                <div class="tag-list">
+                    <span>HTML5</span><span>CSS3</span><span>Android Studio</span><span>Web Responsive</span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa fa-database"></i>
+                <h3>Bases de donnees</h3>
+                <div class="tag-list">
+                    <span>MySQL</span><span>PostgreSQL</span><span>UML</span><span>MCD/MLD</span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa fa-shield-halved"></i>
+                <h3>Securite & Systemes</h3>
+                <div class="tag-list">
+                    <span>OpenSSL</span><span>Hachage</span><span>Administration</span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa fa-toolbox"></i>
+                <h3>Outils</h3>
+                <div class="tag-list">
+                    <span>Git</span><span>VS Code</span><span>IntelliJ IDEA</span><span>Eclipse</span><span>Linux</span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa fa-users"></i>
+                <h3>Savoir-etre</h3>
+                <div class="tag-list">
+                    <span>Travail d'equipe</span><span>Autonomie</span><span>Rigueur</span><span>Methodes agiles</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">contact</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <p><i class="fa fa-location-dot"></i> Thies, Senegal</p>
+                <p><i class="fa fa-phone"></i> 77 845 44 14</p>
+                <p><i class="fa fa-envelope"></i> lodiae196@gmail.com</p>
+                <p><i class="fab fa-github"></i> github.com/hawa702</p>
+            </div>
+            <form class="contact-form" action="https://formsubmit.co/lodiae196@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+                <button type="submit" class="btn hire">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Hawa Diallo. Tous droits reserves.</p>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
